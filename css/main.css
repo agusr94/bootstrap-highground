@@ -1,0 +1,72 @@
+#navbar{
+    background-image: url(/img/navbackground.jpg);
+}
+body{
+    background-image: url(/img/navbackground.jpg);
+}
+.nav-item{
+    padding-right: 10px;
+}
+body{
+    background-color: #2c2c2c;
+}
+.separador{
+    background-image: url(/img/navbackground.jpg);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.separador-img img{
+    width: 200px;
+    height: 200px;
+}
+
+#hellothere{
+    background: url(/img/navbackground.jpg);
+    background-size: 100%;
+}
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
+.hello{
+    color: white;
+}
+.footer-text{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.redes-sociales{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales a i{
+    text-decoration: none;
+    color: white;
+}
+/*---------galeria--------*/
+.gallery{
+	padding: 80px 0px;
+}
+img{
+	max-width: 100%;
+}
+.gallery img{
+	background: #fff;
+	padding: 5px;
+	width: 100%;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-popup .modal-img{
+	width: 100%;
+}
